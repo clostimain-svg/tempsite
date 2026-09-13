@@ -1,7 +1,11 @@
 {
+  // 你的 Worker 名称，也是默认的 *.workers.dev 子域名
   "name": "tempsite",
+  // 兼容性日期，使用今天的日期
   "compatibility_date": "2026-09-13",
+  // 静态资源配置
   "assets": {
-    "directory": "public"
+    // 指定静态文件所在的目录
+    "directory": "./public"
   }
 }
